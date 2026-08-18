@@ -11,16 +11,7 @@ QuadHotbar supports:
 - Minecraft 1.21.1 with NeoForge
 - Minecraft 1.20.1 with Forge
 
-Use the file that matches both your Minecraft version and mod loader.
-
 For multiplayer, QuadHotbar must be installed on both the client and the server.
-
-## Features
-
-- Up to four visible hotbars and 36 selectable slots.
-- Mouse-wheel switching that respects item-specific wheel interactions from other mods.
-- Configurable key bindings for slots 10–36 and for QuadHotbar actions.
-- Persistent selected slots and client/server synchronization after reconnecting.
 
 ## Links
 
