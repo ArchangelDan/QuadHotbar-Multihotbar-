@@ -1,5 +1,7 @@
 ### Gradle ###
 .gradle/
+**/.gradle-stale-path-backup/
+**/.gradle-user-fresh/
 **/build/
 !**/gradle/wrapper/gradle-wrapper.jar
 
@@ -16,7 +18,9 @@ out/
 
 ### Minecraft development ###
 **/run/
+**/run-data/
 **/repo/
+**/mcmodsrepo/
 **/src/generated/**/.cache/
 
 ### Operating system ###
