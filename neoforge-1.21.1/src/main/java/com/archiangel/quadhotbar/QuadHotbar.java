@@ -1,4 +1,4 @@
-package com.kharkivproject.quadhotbar;
+package com.archiangel.quadhotbar;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -11,9 +11,10 @@ public class QuadHotbar {
     public static final String MODID = "quadhotbar";
 
     public QuadHotbar(IEventBus modEventBus, ModContainer modContainer) {
+        QuadHotbarOverviewMenu.MENUS.register(modEventBus);
         modEventBus.addListener(QuadHotbarNetwork::registerPayloads);
         modEventBus.addListener(QuadHotbarConfig::onLoad);
         modContainer.registerConfig(ModConfig.Type.CLIENT, QuadHotbarConfig.SPEC);
-
+        modContainer.registerConfig(ModConfig.Type.SERVER, QuadHotbarServerConfig.SPEC);
     }
 }
