@@ -1,14 +1,31 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.kharkivproject.quadhotbar.mixin",
+  "package": "com.archiangel.quadhotbar.mixin",
+  "plugin": "com.archiangel.quadhotbar.mixin.QuadHotbarMixinPlugin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "CorpseTransferMixin",
+    "DeathInventoryMixin",
+    "GraveStoneRecoveryMixin",
+    "FurnaceMenuAccessor",
     "InventoryMixin",
     "PlayerMixin",
-    "ServerGamePacketListenerImplMixin"
+    "ServerGamePacketListenerImplMixin",
+    "ServerConfigurationPacketListenerImplMixin"
   ],
-  "client": [],
+  "client": [
+    "KeyBindsListMixin",
+    "OverviewTooltipLayerMixin",
+    "OverviewReturnScreenMixin",
+    "OverviewRecipeGhostMixin",
+    "OverviewInventoryClickMixin",
+    "ContainerScreenControlsMixin",
+    "SlotPositionAccessor",
+    "ClientInventoryScrollMixin",
+    "CreativeInventoryScreenMixin",
+    "InventoryScreenMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
