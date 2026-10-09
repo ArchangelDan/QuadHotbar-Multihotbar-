@@ -5,7 +5,6 @@ NeoForge 1.21.1 beta release.
 - Added Corpse and GraveStone compatibility.
 - Fixed mouse-wheel conflicts and hotbar switching.
 - Fixed synchronization after death and item pickup.
-- Fixed item duplication and transfers between inventory pages.
 - Minor stability and reliability fixes.
 
 # 1.1.0-beta1 1.20.1
@@ -15,7 +14,6 @@ Forge 1.20.1 beta release.
 - Added Corpse and GraveStone compatibility.
 - Fixed mouse-wheel conflicts and hotbar switching.
 - Fixed synchronization after death and item pickup.
-- Fixed item duplication and transfers between inventory pages.
 - Minor stability and reliability fixes.
 
 # 1.0.2 1.21.1
